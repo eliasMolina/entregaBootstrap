@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7ec535547e.js" crossorigin="anonymous"></script>
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--link css-->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Sabores con bootstrap </title>
+</head>
+    <body>
+        <div class="container-fluid">
+
+            <header class="row">
+
+                <nav class="navbar navbar-expand-lg nav-background p-2">
+                    
+                    <a class="navbar-brand" href="#">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="desayunos.html">Desayunos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Catering</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tortas</a> 
+                            
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Cumpleaños</a></li>
+                            <li><a class="dropdown-item" href="#">Tradicionales</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Personalizadas</a></li>
+                            </ul>
+                        </li>
+                        
+                        </ul>
+                        <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                    
+                </nav>
+            </header>   
+
+                <div class="caja-main">
+                    <h1 class="animate__animated animate__bounceInLeft">Sabores de mi cocina</h1>
+                    <h2>Pasteleria y mucho mas</h2>
+                    <main class="row">
+
+                        
+                            
+
+
+                            <div class="img-main col-12">
+                                <img src="img/main1.jpeg" alt="">
+                                <img src="img/main2.jpeg" alt="">
+                                <img src="img/main3.jpeg" alt="">
+                                <img src="img/main4.jpeg" alt="">
+                            </div>
+                        
+                    </main>
+                </div>
+
+                <div class="container-section">
+                    <section class="row">
+                        <p class="col-6"><span><strong> Un poco de nuestra historia</strong></span> <br>Con más de 15 años de trayectoria buscamos satisfacer a nuestros clientes ofreciéndoles productos de excelencia. Nos reinventamos constantemente pero conservamos la esencia de los sabores originales.
+
+                            Formamos un equipo de alto nivel profesional para brindar un servicio personalizado y cálido. Sabemos que lo más importante es que nuestro producto cumpla las expectativas y este al nivel de las mejores pastelerías y caterings del país.
+                            
+                            En Sabores de mi cocina nos ocupamos de elegir personalmente la materia prima con la que elaboramos nuestros productos. Es nuestro secreto para lograr ese sabor artesanal que nos distingue.</p>
+
+                        <form class="col-6 formulario" action="">
+                            <h3>Contactanos</h3>
+                            <input type="text" name="Nombre" placeholder="Nombre">
+                            <input type="email" name="correo" placeholder="Correo">
+                            <input type="text" name="telefono" placeholder="Telefono">
+                            <textarea name="mensaje" placeholder="Pedinos lo que se te cante" ></textarea>
+                            <input type="buttom" value="Enviar" id="boton">
+                        </form>
+                    </section>
+                </div>
+
+            <div class="container-footer">    
+                <footer class="row">
+
+                    
+                        <div class="col-8">
+                            <h4>Donde encontrarnos</h4>
+                            <p><i class="fa-solid fa-location-dot"></i>Castilla 655, Campana Buenos Aires</p>
+                            <p><i class="fa-solid fa-location-dot"></i>Calle falsa 123,Ibiucy Entre Rios</p>
+                        </div>
+
+                        
+                        <div class="col-4">
+                            <h4>Redes Sociales</h4>
+                            
+                            <a href="https://www.instagram.com/saboressdemicocina/" target="_blank"><i class="fa-brands fa-instagram"></i> </a>
+                            <a href="https://www.facebook.com/Sabores-de-mi-cocina-774543539407968/" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                        </div>
+                
+                </footer>
+            </div>
+        </div>    
+        
+        <!-- link JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
